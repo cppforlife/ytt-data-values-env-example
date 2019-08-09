@@ -1,0 +1,6 @@
+#@data/values
+---
+env:
+  ssl_cert_name: staging-com-296481763481247258616718674
+  project_id: staging-3aef9459
+  project: staging

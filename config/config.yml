@@ -1,0 +1,2 @@
+#@ load("@ytt:data", "data")
+vals: #@ data.values

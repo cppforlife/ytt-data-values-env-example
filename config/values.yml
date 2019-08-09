@@ -1,0 +1,11 @@
+#@data/values
+---
+env:
+  ssl_cert_name: ""
+  project_id: ""
+  project: ""
+apps:
+- name: internal
+  port: 8080
+  args: ["gunicorn", "--workers", "4", "--config", "config/gunicorn_frontend.py", "core.gunicorn.run_frontend"]
+  settings: monolith-settings-internal
